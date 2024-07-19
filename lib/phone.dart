@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:lottie/lottie.dart';
 
 class MyPhone extends StatefulWidget {
   const MyPhone({super.key});
   static String verify = "";
+  static String completeNumber='';
 
   @override
   State<MyPhone> createState() => _MyPhoneState();
@@ -24,31 +27,85 @@ class _MyPhoneState extends State<MyPhone> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        alignment: Alignment.center,
         margin: const EdgeInsets.only(left: 25, right: 25),
         child: SingleChildScrollView(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              const SizedBox(
+                height: 100,
+              ),
               Image.asset(
-                'assets/login.png',
-                width: 250,
-                height: 250,
+                'assets/logo.png',
+                width: 130,
+                height: 130,
               ),
-              const SizedBox(
-                height: 25,
+              Row(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(left: 0, top: 20),
+                    child: SizedBox(
+                      height: 38,
+                      child: DefaultTextStyle(
+                        style: const TextStyle(
+                          fontSize: 28.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                          // fontStyle: FontStyle.italic
+                        ),
+                        child: Text('HealthMetrics',
+                            style: GoogleFonts.aBeeZee(
+                              textStyle: const TextStyle(
+                                color: Colors.white,
+                              ),
+                            )),
+                      ),
+                    ),
+                  ),
+                ],
               ),
-              const Text(
-                'Phone Number Verification',
-                style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+              Row(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(top: 0, left: 0),
+                    child: Text('Health living guide for you',
+                        style: GoogleFonts.lato(
+                            textStyle: const TextStyle(
+                          fontSize: 17,
+                          color: Color.fromARGB(255, 150, 150, 150),
+                          //fontStyle: FontStyle.italic
+                        ))),
+                  )
+                ],
               ),
-              const SizedBox(
-                height: 10,
+              Row(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(left: 0, top: 140),
+                    child: Text("Login",
+                        style: GoogleFonts.aBeeZee(
+                            textStyle: const TextStyle(
+                                fontFamily: 'Lato',
+                                // color: Color(0xff495F81),
+                                color: Colors.white,
+                                fontSize: 23,
+                                fontWeight: FontWeight.w600))),
+                  )
+                ],
               ),
-              const Text(
-                'We need to register phone before getting started',
-                style: TextStyle(fontSize: 16),
-                textAlign: TextAlign.center,
+              Row(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(left: 0, top: 8),
+                    child: Text('Enter the Phone Number',
+                        style: GoogleFonts.lato(
+                            textStyle: const TextStyle(
+                          fontFamily: 'Lato',
+                          color: Color.fromARGB(255, 150, 150, 150),
+                        ))),
+                  )
+                ],
               ),
               const SizedBox(
                 height: 30,
@@ -114,21 +171,24 @@ class _MyPhoneState extends State<MyPhone> {
                 height: 20,
               ),
               SizedBox(
-                height: 45,
+                height: 52,
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () async {
+                    setState(() {
+                      MyPhone.completeNumber= countryCode.text + phone;
+                    });
                     showDialog(
                       context: context,
                       barrierDismissible: false,
                       builder: (BuildContext context) {
-                        return Center(
+                        return const Center(
                           child: CircularProgressIndicator(),
                         );
                       },
                     );
                     await FirebaseAuth.instance.verifyPhoneNumber(
-                      phoneNumber: '${countryCode.text + phone}',
+                      phoneNumber: countryCode.text + phone,
                       verificationCompleted:
                           (PhoneAuthCredential credential) {},
                       verificationFailed: (FirebaseAuthException e) {},
@@ -139,12 +199,31 @@ class _MyPhoneState extends State<MyPhone> {
                       codeAutoRetrievalTimeout: (String verificationId) {},
                     );
                   },
-                  child: Text('Send The Code'),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.green.shade600,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
+                  ),
+                  child: Row(
+                    children: [
+                      Text('GENERATE OTP',
+                          style: GoogleFonts.lato(
+                            textStyle: const TextStyle(
+                              color: Colors.white,
+                              fontFamily: 'Lato', // Set the text color to white
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          )),
+                      const Spacer(),
+                      SizedBox(
+                        height: 20,
+                        child: Lottie.asset(
+                          'assets/lottie/right.json',
+                        ),
+                      )
+                    ],
                   ),
                 ),
               ),

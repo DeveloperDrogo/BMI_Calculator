@@ -1,5 +1,7 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'input_page.dart';
 import 'otp.dart';
@@ -9,7 +11,12 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   SharedPreferences prefs = await SharedPreferences.getInstance();
-  bool isLogin = prefs.containsKey('isLogin') && prefs.getBool('isLogin') == true;
+  LicenseRegistry.addLicense(() async* {
+    final license = await rootBundle.loadString('google_fonts/OFL.txt');
+    yield LicenseEntryWithLineBreaks(['google_fonts'], license);
+  });
+  bool isLogin =
+      prefs.containsKey('isLogin') && prefs.getBool('isLogin') == true;
   runApp(MyApp(isLogin: isLogin));
 }
 
