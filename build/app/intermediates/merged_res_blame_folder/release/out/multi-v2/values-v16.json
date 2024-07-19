@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.bmi_flutter.app-mergeReleaseResources-14:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\FLOYDEN\\.gradle\\caches\\transforms-3\\72d701307b1115688b608c7110be19e8\\transformed\\core-1.6.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}
