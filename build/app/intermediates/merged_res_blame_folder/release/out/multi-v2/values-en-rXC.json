@@ -4,7 +4,7 @@
             "outputFile": "com.example.bmi_flutter.app-mergeReleaseResources-14:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\FLOYDEN\\.gradle\\caches\\transforms-3\\a8d5665db2dab5bb55b993127abcdbdc\\transformed\\browser-1.4.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "/Users/parrophinstech/.gradle/caches/transforms-3/a8d5665db2dab5bb55b993127abcdbdc/transformed/browser-1.4.0/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\FLOYDEN\\.gradle\\caches\\transforms-3\\72d701307b1115688b608c7110be19e8\\transformed\\core-1.6.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "/Users/parrophinstech/.gradle/caches/transforms-3/72d701307b1115688b608c7110be19e8/transformed/core-1.6.0/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,0 +1,12 @@
+app.rive.rive.rive_common-jetified-window-java-1.0.0-beta04-0 /Users/parrophinstech/.gradle/caches/transforms-3/234cf6cab2ae0df1de11d520bd41701d/transformed/jetified-window-java-1.0.0-beta04/res
+app.rive.rive.rive_common-jetified-window-1.0.0-beta04-1 /Users/parrophinstech/.gradle/caches/transforms-3/2f632d8dec5aedcc344894ac2d746d3d/transformed/jetified-window-1.0.0-beta04/res
+app.rive.rive.rive_common-jetified-annotation-experimental-1.1.0-2 /Users/parrophinstech/.gradle/caches/transforms-3/63de43c2f1d406e95d47893f129ee7b9/transformed/jetified-annotation-experimental-1.1.0/res
+app.rive.rive.rive_common-core-1.6.0-3 /Users/parrophinstech/.gradle/caches/transforms-3/72d701307b1115688b608c7110be19e8/transformed/core-1.6.0/res
+app.rive.rive.rive_common-main-4 /Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/src/main/res
+app.rive.rive.rive_common-release-5 /Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/src/release/res
+app.rive.rive.rive_common-pngs-6 /Users/parrophinstech/BMI_Calculator/build/rive_common/generated/res/pngs/release
+app.rive.rive.rive_common-resValues-7 /Users/parrophinstech/BMI_Calculator/build/rive_common/generated/res/resValues/release
+app.rive.rive.rive_common-rs-8 /Users/parrophinstech/BMI_Calculator/build/rive_common/generated/res/rs/release
+app.rive.rive.rive_common-mergeReleaseResources-9 /Users/parrophinstech/BMI_Calculator/build/rive_common/intermediates/incremental/release/mergeReleaseResources/merged.dir
+app.rive.rive.rive_common-mergeReleaseResources-10 /Users/parrophinstech/BMI_Calculator/build/rive_common/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+app.rive.rive.rive_common-merged_res-11 /Users/parrophinstech/BMI_Calculator/build/rive_common/intermediates/merged_res/release

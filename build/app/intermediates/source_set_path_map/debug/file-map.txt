@@ -17,4 +17,7 @@ com.example.bmi_flutter.app-mergeDebugResources-15 /Users/parrophinstech/BMI_Cal
 com.example.bmi_flutter.app-merged_res-16 /Users/parrophinstech/BMI_Calculator/build/app/intermediates/merged_res/debug
 com.example.bmi_flutter.app-packaged_res-17 /Users/parrophinstech/BMI_Calculator/build/firebase_auth/intermediates/packaged_res/debug
 com.example.bmi_flutter.app-packaged_res-18 /Users/parrophinstech/BMI_Calculator/build/firebase_core/intermediates/packaged_res/debug
-com.example.bmi_flutter.app-packaged_res-19 /Users/parrophinstech/BMI_Calculator/build/shared_preferences_android/intermediates/packaged_res/debug
+com.example.bmi_flutter.app-packaged_res-19 /Users/parrophinstech/BMI_Calculator/build/flutter_native_splash/intermediates/packaged_res/debug
+com.example.bmi_flutter.app-packaged_res-20 /Users/parrophinstech/BMI_Calculator/build/path_provider_android/intermediates/packaged_res/debug
+com.example.bmi_flutter.app-packaged_res-21 /Users/parrophinstech/BMI_Calculator/build/rive_common/intermediates/packaged_res/debug
+com.example.bmi_flutter.app-packaged_res-22 /Users/parrophinstech/BMI_Calculator/build/shared_preferences_android/intermediates/packaged_res/debug

@@ -25,7 +25,7 @@
 20-->[androidx.core:core:1.6.0] /Users/parrophinstech/.gradle/caches/transforms-3/72d701307b1115688b608c7110be19e8/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
 22        android:icon="@mipmap/ic_launcher"
-23        android:label="bmi_flutter" >
+23        android:label="HEALTH METRICS" >
 24        <activity
 25            android:name="com.example.bmi_flutter.MainActivity"
 26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"

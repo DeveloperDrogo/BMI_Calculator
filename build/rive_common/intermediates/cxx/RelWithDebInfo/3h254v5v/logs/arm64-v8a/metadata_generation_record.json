@@ -1,0 +1,170 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 19 min SDK version: arm64-v8a",
+    "file_": "/Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1977511905
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON /Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/.cxx/RelWithDebInfo/3h254v5v/arm64-v8a/android_gradle_build.json due to:",
+    "file_": "/Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 763609997
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json /Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/.cxx/RelWithDebInfo/3h254v5v/arm64-v8a/android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "/Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -655211153
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file /Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/.cxx/RelWithDebInfo/3h254v5v/arm64-v8a/metadata_generation_command.txt, will remove stale json folder",
+    "file_": "/Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1044061075
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "/Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 884216170
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027/Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/.cxx/RelWithDebInfo/3h254v5v/arm64-v8a\u0027",
+    "file_": "/Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 142362160
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake /Users/parrophinstech/Library/Android/sdk/cmake/3.18.1/bin/cmake \\\n  -H/Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d19 \\\n  -DANDROID_PLATFORM\u003dandroid-19 \\\n  -DANDROID_ABI\u003darm64-v8a \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a \\\n  -DANDROID_NDK\u003d/Users/parrophinstech/Library/Android/sdk/ndk/25.1.8937393 \\\n  -DCMAKE_ANDROID_NDK\u003d/Users/parrophinstech/Library/Android/sdk/ndk/25.1.8937393 \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/Users/parrophinstech/Library/Android/sdk/ndk/25.1.8937393/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/Users/parrophinstech/Library/Android/sdk/cmake/3.18.1/bin/ninja \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/parrophinstech/BMI_Calculator/build/rive_common/intermediates/cxx/RelWithDebInfo/3h254v5v/obj/arm64-v8a \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/parrophinstech/BMI_Calculator/build/rive_common/intermediates/cxx/RelWithDebInfo/3h254v5v/obj/arm64-v8a \\\n  -DCMAKE_BUILD_TYPE\u003dRelWithDebInfo \\\n  -B/Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/.cxx/RelWithDebInfo/3h254v5v/arm64-v8a \\\n  -GNinja\n",
+    "file_": "/Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -956687352
+  },
+  {
+    "level_": 0,
+    "message_": "/Users/parrophinstech/Library/Android/sdk/cmake/3.18.1/bin/cmake \\\n  -H/Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d19 \\\n  -DANDROID_PLATFORM\u003dandroid-19 \\\n  -DANDROID_ABI\u003darm64-v8a \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a \\\n  -DANDROID_NDK\u003d/Users/parrophinstech/Library/Android/sdk/ndk/25.1.8937393 \\\n  -DCMAKE_ANDROID_NDK\u003d/Users/parrophinstech/Library/Android/sdk/ndk/25.1.8937393 \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/Users/parrophinstech/Library/Android/sdk/ndk/25.1.8937393/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/Users/parrophinstech/Library/Android/sdk/cmake/3.18.1/bin/ninja \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/parrophinstech/BMI_Calculator/build/rive_common/intermediates/cxx/RelWithDebInfo/3h254v5v/obj/arm64-v8a \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/parrophinstech/BMI_Calculator/build/rive_common/intermediates/cxx/RelWithDebInfo/3h254v5v/obj/arm64-v8a \\\n  -DCMAKE_BUILD_TYPE\u003dRelWithDebInfo \\\n  -B/Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/.cxx/RelWithDebInfo/3h254v5v/arm64-v8a \\\n  -GNinja\n",
+    "file_": "/Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -193187321
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of /Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/.cxx/RelWithDebInfo/3h254v5v/arm64-v8a/compile_commands.json.bin normally",
+    "file_": "/Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 57486933
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "/Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 571869919
+  },
+  {
+    "level_": 0,
+    "message_": "write command file /Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/.cxx/RelWithDebInfo/3h254v5v/arm64-v8a/metadata_generation_command.txt",
+    "file_": "/Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1515807465
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "/Users/parrophinstech/.pub-cache/hosted/pub.dev/rive_common-0.4.8/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1785024293
+  }
+]

@@ -44,6 +44,7 @@ MERGED from [:firebase_auth] /Users/parrophinstech/BMI_Calculator/build/firebase
 MERGED from [:firebase_core] /Users/parrophinstech/BMI_Calculator/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:path_provider_android] /Users/parrophinstech/BMI_Calculator/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:rive_common] /Users/parrophinstech/BMI_Calculator/build/rive_common/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_native_splash] /Users/parrophinstech/BMI_Calculator/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/parrophinstech/.gradle/caches/transforms-3/e2fba16191078e764743f0ceca6a0e89/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:17:1-75:12
 MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/parrophinstech/.gradle/caches/transforms-3/441a45b1ca230e45a2a1aa6b941bdaf2/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/parrophinstech/.gradle/caches/transforms-3/3f7721487db160fe6cc960d57d8ce557/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
@@ -117,6 +118,8 @@ MERGED from [:path_provider_android] /Users/parrophinstech/BMI_Calculator/build/
 MERGED from [:path_provider_android] /Users/parrophinstech/BMI_Calculator/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:rive_common] /Users/parrophinstech/BMI_Calculator/build/rive_common/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:rive_common] /Users/parrophinstech/BMI_Calculator/build/rive_common/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] /Users/parrophinstech/BMI_Calculator/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] /Users/parrophinstech/BMI_Calculator/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/parrophinstech/.gradle/caches/transforms-3/e2fba16191078e764743f0ceca6a0e89/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:21:5-23:64
 MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/parrophinstech/.gradle/caches/transforms-3/e2fba16191078e764743f0ceca6a0e89/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:21:5-23:64
 MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/parrophinstech/.gradle/caches/transforms-3/441a45b1ca230e45a2a1aa6b941bdaf2/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44

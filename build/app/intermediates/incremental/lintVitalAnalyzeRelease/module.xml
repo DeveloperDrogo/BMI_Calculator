@@ -1,14 +1,14 @@
 <lint-module
     format="1"
-    dir="C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\android\app"
+    dir="/Users/parrophinstech/BMI_Calculator/android/app"
     name=":app"
     type="APP"
     maven="android:app:"
     gradle="7.3.0"
-    buildFolder="C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\build\app"
-    bootClassPath="C:\Users\FLOYDEN\AppData\Local\Android\Sdk\platforms\android-33\android.jar;C:\Users\FLOYDEN\AppData\Local\Android\Sdk\build-tools\30.0.3\core-lambda-stubs.jar"
+    buildFolder="/Users/parrophinstech/BMI_Calculator/build/app"
+    bootClassPath="/Users/parrophinstech/Library/Android/sdk/platforms/android-34/android.jar:/Users/parrophinstech/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
     javaSourceLevel="1.8"
-    compileTarget="android-33">
+    compileTarget="android-34">
   <lintOptions
       abortOnError="true"
       absolutePaths="true"

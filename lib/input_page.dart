@@ -6,9 +6,10 @@ import 'package:bmi_flutter/constants.dart';
 import 'package:bmi_flutter/reusable_card.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
+import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
-import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 // import 'bottom_button.dart';
 // import '../components/round_icon_button.dart';
@@ -57,7 +58,9 @@ class _InputPageState extends State<InputPage> {
                   animType: AnimType.rightSlide,
                   title: 'Are you sure want to logout?',
                   titleTextStyle: const TextStyle(fontSize: 16, height: 3),
-                  btnCancelOnPress: () {},
+                  btnCancelOnPress: () {
+
+                  },
                   btnOkOnPress: () async {
                     SharedPreferences prefs =
                         await SharedPreferences.getInstance();
@@ -264,7 +267,7 @@ class _InputPageState extends State<InputPage> {
                         style: GoogleFonts.lato(
                           textStyle: const TextStyle(
                             color: Colors.white,
-                            fontFamily: 'Lato', // Set the text color to white
+                          
                             fontSize: 16,
                             fontWeight: FontWeight.bold,
                           ),

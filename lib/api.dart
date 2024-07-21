@@ -9,7 +9,7 @@ class Api {
       final response = await dio.get(
         'https://floyden-monteiro.github.io/bmi/advice.json',
       );
-      print(response.data);
+      //debugPrint(response.data.toString());
       if (response.statusCode == 200) {
         CalculatorBrain.api = response.data['weight_categories'];
         return response.data['weight_categories'];

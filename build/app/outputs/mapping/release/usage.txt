@@ -2613,6 +2613,18 @@ androidx.viewpager.widget.ViewPager$SavedState
 androidx.viewpager.widget.ViewPager$SimpleOnPageChangeListener
 androidx.viewpager.widget.ViewPager$ViewPositionComparator
 androidx.viewpager.widget.ViewPager
+app.rive.rive.BuildConfig
+app.rive.rive.R$attr
+app.rive.rive.R$color
+app.rive.rive.R$dimen
+app.rive.rive.R$drawable
+app.rive.rive.R$id
+app.rive.rive.R$integer
+app.rive.rive.R$layout
+app.rive.rive.R$string
+app.rive.rive.R$style
+app.rive.rive.R$styleable
+app.rive.rive.R
 com.example.bmi_flutter.BuildConfig
 com.example.bmi_flutter.R$attr
 com.example.bmi_flutter.R$color
@@ -4786,6 +4798,26 @@ io.flutter.plugins.firebase.core.R$string
 io.flutter.plugins.firebase.core.R$style
 io.flutter.plugins.firebase.core.R$styleable
 io.flutter.plugins.firebase.core.R
+io.flutter.plugins.pathprovider.BuildConfig
+io.flutter.plugins.pathprovider.Messages$FlutterError:
+    public void <init>(java.lang.String,java.lang.String,java.lang.Object)
+io.flutter.plugins.pathprovider.Messages:
+    public void <init>()
+io.flutter.plugins.pathprovider.PathProviderPlugin:
+    static final java.lang.String TAG
+    public static void registerWith(io.flutter.plugin.common.PluginRegistry$Registrar)
+io.flutter.plugins.pathprovider.R$attr
+io.flutter.plugins.pathprovider.R$color
+io.flutter.plugins.pathprovider.R$dimen
+io.flutter.plugins.pathprovider.R$drawable
+io.flutter.plugins.pathprovider.R$id
+io.flutter.plugins.pathprovider.R$integer
+io.flutter.plugins.pathprovider.R$layout
+io.flutter.plugins.pathprovider.R$string
+io.flutter.plugins.pathprovider.R$style
+io.flutter.plugins.pathprovider.R$styleable
+io.flutter.plugins.pathprovider.R
+io.flutter.plugins.pathprovider.StorageDirectoryMapper
 io.flutter.plugins.sharedpreferences.BuildConfig
 io.flutter.plugins.sharedpreferences.Messages$FlutterError:
     public void <init>(java.lang.String,java.lang.String,java.lang.Object)
@@ -10812,9 +10844,6 @@ kotlinx.coroutines.internal.AtomicKt:
 kotlinx.coroutines.internal.AtomicOp:
     public final java.lang.Object getConsensus()
     public final boolean isDecided()
-kotlinx.coroutines.internal.ClassValueCtorCache$cache$1:
-    public synthetic bridge java.lang.Object computeValue(java.lang.Class)
-    protected kotlin.jvm.functions.Function1 computeValue(java.lang.Class)
 kotlinx.coroutines.internal.ConcurrentKt:
     public static synthetic void ReentrantLock$annotations()
     public static final java.util.Set identitySet(int)

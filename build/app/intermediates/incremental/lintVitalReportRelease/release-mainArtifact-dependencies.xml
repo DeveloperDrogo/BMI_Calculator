@@ -1,18 +1,24 @@
 <dependencies>
   <compile
-      roots="__local_aars__:C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\build\app\intermediates\flutter\release\libs.jar:unspecified@jar,C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\android@@:shared_preferences_android::release,C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\android@@:firebase_auth::release,C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\android@@:firebase_core::release,io.flutter:flutter_embedding_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10@jar,io.flutter:armeabi_v7a_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar,io.flutter:arm64_v8a_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar,io.flutter:x86_64_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar,androidx.lifecycle:lifecycle-common-java8:2.2.0@jar,androidx.fragment:fragment:1.1.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.activity:activity:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.core:core:1.6.0@aar,androidx.core:core:1.6.0@aar,androidx.lifecycle:lifecycle-runtime:2.2.0@aar,androidx.savedstate:savedstate:1.0.0@aar,androidx.lifecycle:lifecycle-livedata:2.0.0@aar,androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar,androidx.lifecycle:lifecycle-common:2.2.0@jar,androidx.arch.core:core-runtime:2.0.0@aar,androidx.arch.core:core-common:2.1.0@jar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar,androidx.annotation:annotation-jvm:1.7.0@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10@jar,org.jetbrains.kotlin:kotlin-stdlib:1.7.10@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10@jar,org.jetbrains:annotations:13.0@jar,androidx.annotation:annotation-experimental:1.1.0@aar,androidx.tracing:tracing:1.0.0@aar">
+      roots="__local_aars__:/Users/parrophinstech/BMI_Calculator/build/app/intermediates/flutter/release/libs.jar:unspecified@jar,/Users/parrophinstech/BMI_Calculator/android@@:shared_preferences_android::release,/Users/parrophinstech/BMI_Calculator/android@@:firebase_auth::release,/Users/parrophinstech/BMI_Calculator/android@@:firebase_core::release,/Users/parrophinstech/BMI_Calculator/android@@:path_provider_android::release,/Users/parrophinstech/BMI_Calculator/android@@:rive_common::release,io.flutter:flutter_embedding_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10@jar,io.flutter:armeabi_v7a_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar,io.flutter:arm64_v8a_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar,io.flutter:x86_64_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar,androidx.lifecycle:lifecycle-common-java8:2.2.0@jar,androidx.fragment:fragment:1.1.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.activity:activity:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.core:core:1.6.0@aar,androidx.core:core:1.6.0@aar,androidx.lifecycle:lifecycle-runtime:2.2.0@aar,androidx.savedstate:savedstate:1.0.0@aar,androidx.lifecycle:lifecycle-livedata:2.0.0@aar,androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar,androidx.lifecycle:lifecycle-common:2.2.0@jar,androidx.arch.core:core-runtime:2.0.0@aar,androidx.arch.core:core-common:2.1.0@jar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar,androidx.annotation:annotation-jvm:1.7.1@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10@jar,org.jetbrains.kotlin:kotlin-stdlib:1.7.10@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10@jar,org.jetbrains:annotations:13.0@jar,androidx.annotation:annotation-experimental:1.1.0@aar,androidx.tracing:tracing:1.0.0@aar">
     <dependency
-        name="__local_aars__:C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"
-        simpleName="__local_aars__:C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\build\app\intermediates\flutter\release\libs.jar"/>
+        name="__local_aars__:/Users/parrophinstech/BMI_Calculator/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+        simpleName="__local_aars__:/Users/parrophinstech/BMI_Calculator/build/app/intermediates/flutter/release/libs.jar"/>
     <dependency
-        name="C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\android@@:shared_preferences_android::release"
+        name="/Users/parrophinstech/BMI_Calculator/android@@:shared_preferences_android::release"
         simpleName="io.flutter.plugins.sharedpreferences:shared_preferences_android"/>
     <dependency
-        name="C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\android@@:firebase_auth::release"
+        name="/Users/parrophinstech/BMI_Calculator/android@@:firebase_auth::release"
         simpleName="io.flutter.plugins.firebase.auth:firebase_auth"/>
     <dependency
-        name="C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\android@@:firebase_core::release"
+        name="/Users/parrophinstech/BMI_Calculator/android@@:firebase_core::release"
         simpleName="io.flutter.plugins.firebase.core:firebase_core"/>
+    <dependency
+        name="/Users/parrophinstech/BMI_Calculator/android@@:path_provider_android::release"
+        simpleName="io.flutter.plugins.pathprovider:path_provider_android"/>
+    <dependency
+        name="/Users/parrophinstech/BMI_Calculator/android@@:rive_common::release"
+        simpleName="app.rive.rive:rive_common"/>
     <dependency
         name="io.flutter:flutter_embedding_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar"
         simpleName="io.flutter:flutter_embedding_release"/>
@@ -92,7 +98,7 @@
         name="androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar"
         simpleName="androidx.lifecycle:lifecycle-viewmodel"/>
     <dependency
-        name="androidx.annotation:annotation-jvm:1.7.0@jar"
+        name="androidx.annotation:annotation-jvm:1.7.1@jar"
         simpleName="androidx.annotation:annotation-jvm"/>
     <dependency
         name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10@jar"
@@ -114,19 +120,25 @@
         simpleName="androidx.tracing:tracing"/>
   </compile>
   <package
-      roots="__local_aars__:C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\build\app\intermediates\flutter\release\libs.jar:unspecified@jar,C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\android@@:shared_preferences_android::release,C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\android@@:firebase_auth::release,C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\android@@:firebase_core::release,com.google.firebase:firebase-auth:22.3.0@aar,com.google.firebase:firebase-common-ktx:20.4.2@aar,com.google.firebase:firebase-auth-interop:20.0.0@aar,com.google.firebase:firebase-common:20.4.2@aar,com.google.android.recaptcha:recaptcha:18.1.2@aar,io.flutter:flutter_embedding_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.4@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10@jar,io.flutter:armeabi_v7a_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar,io.flutter:arm64_v8a_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar,io.flutter:x86_64_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar,androidx.lifecycle:lifecycle-common-java8:2.2.0@jar,com.google.android.gms:play-services-auth-api-phone:17.4.0@aar,com.google.android.play:integrity:1.1.0@aar,com.google.firebase:firebase-appcheck-interop:17.0.0@aar,com.google.android.gms:play-services-base:18.0.1@aar,com.google.android.gms:play-services-tasks:18.0.2@aar,com.google.android.gms:play-services-basement:18.1.0@aar,androidx.fragment:fragment:1.1.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.activity:activity:1.0.0@aar,androidx.browser:browser:1.4.0@aar,androidx.customview:customview:1.0.0@aar,androidx.core:core:1.6.0@aar,androidx.core:core:1.6.0@aar,androidx.lifecycle:lifecycle-runtime:2.2.0@aar,androidx.savedstate:savedstate:1.0.0@aar,androidx.lifecycle:lifecycle-livedata:2.0.0@aar,androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar,androidx.lifecycle:lifecycle-common:2.2.0@jar,androidx.tracing:tracing:1.0.0@aar,androidx.arch.core:core-runtime:2.0.0@aar,androidx.arch.core:core-common:2.1.0@jar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar,com.google.firebase:firebase-components:17.1.5@aar,androidx.concurrent:concurrent-futures:1.1.0@jar,androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar,androidx.interpolator:interpolator:1.0.0@aar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10@jar,androidx.annotation:annotation-jvm:1.7.0@jar,org.jetbrains.kotlin:kotlin-stdlib:1.7.10@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10@jar,org.jetbrains:annotations:13.0@jar,androidx.annotation:annotation-experimental:1.1.0@aar,com.google.firebase:firebase-annotations:16.2.0@jar,com.google.guava:listenablefuture:1.0@jar,javax.inject:javax.inject:1@jar,com.google.errorprone:error_prone_annotations:2.9.0@jar">
+      roots="__local_aars__:/Users/parrophinstech/BMI_Calculator/build/app/intermediates/flutter/release/libs.jar:unspecified@jar,/Users/parrophinstech/BMI_Calculator/android@@:shared_preferences_android::release,/Users/parrophinstech/BMI_Calculator/android@@:firebase_auth::release,/Users/parrophinstech/BMI_Calculator/android@@:firebase_core::release,/Users/parrophinstech/BMI_Calculator/android@@:path_provider_android::release,/Users/parrophinstech/BMI_Calculator/android@@:rive_common::release,com.google.firebase:firebase-auth:22.3.0@aar,com.google.firebase:firebase-common-ktx:20.4.2@aar,com.google.firebase:firebase-auth-interop:20.0.0@aar,com.google.firebase:firebase-common:20.4.2@aar,com.google.android.recaptcha:recaptcha:18.1.2@aar,io.flutter:flutter_embedding_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.4@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10@jar,io.flutter:armeabi_v7a_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar,io.flutter:arm64_v8a_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar,io.flutter:x86_64_release:1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b@jar,androidx.lifecycle:lifecycle-common-java8:2.2.0@jar,com.google.android.gms:play-services-auth-api-phone:17.4.0@aar,com.google.android.play:integrity:1.1.0@aar,com.google.firebase:firebase-appcheck-interop:17.0.0@aar,com.google.android.gms:play-services-base:18.0.1@aar,com.google.android.gms:play-services-tasks:18.0.2@aar,com.google.android.gms:play-services-basement:18.1.0@aar,androidx.fragment:fragment:1.1.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.activity:activity:1.0.0@aar,androidx.browser:browser:1.4.0@aar,androidx.customview:customview:1.0.0@aar,androidx.core:core:1.6.0@aar,androidx.core:core:1.6.0@aar,androidx.lifecycle:lifecycle-runtime:2.2.0@aar,androidx.savedstate:savedstate:1.0.0@aar,androidx.lifecycle:lifecycle-livedata:2.0.0@aar,androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar,androidx.lifecycle:lifecycle-common:2.2.0@jar,androidx.tracing:tracing:1.0.0@aar,androidx.arch.core:core-runtime:2.0.0@aar,androidx.arch.core:core-common:2.1.0@jar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar,com.google.firebase:firebase-components:17.1.5@aar,androidx.concurrent:concurrent-futures:1.1.0@jar,androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar,androidx.interpolator:interpolator:1.0.0@aar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10@jar,androidx.annotation:annotation-jvm:1.7.1@jar,org.jetbrains.kotlin:kotlin-stdlib:1.7.10@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10@jar,org.jetbrains:annotations:13.0@jar,androidx.annotation:annotation-experimental:1.1.0@aar,com.google.firebase:firebase-annotations:16.2.0@jar,com.google.guava:listenablefuture:1.0@jar,javax.inject:javax.inject:1@jar,com.google.errorprone:error_prone_annotations:2.9.0@jar">
     <dependency
-        name="__local_aars__:C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"
-        simpleName="__local_aars__:C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\build\app\intermediates\flutter\release\libs.jar"/>
+        name="__local_aars__:/Users/parrophinstech/BMI_Calculator/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+        simpleName="__local_aars__:/Users/parrophinstech/BMI_Calculator/build/app/intermediates/flutter/release/libs.jar"/>
     <dependency
-        name="C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\android@@:shared_preferences_android::release"
+        name="/Users/parrophinstech/BMI_Calculator/android@@:shared_preferences_android::release"
         simpleName="io.flutter.plugins.sharedpreferences:shared_preferences_android"/>
     <dependency
-        name="C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\android@@:firebase_auth::release"
+        name="/Users/parrophinstech/BMI_Calculator/android@@:firebase_auth::release"
         simpleName="io.flutter.plugins.firebase.auth:firebase_auth"/>
     <dependency
-        name="C:\Users\FLOYDEN\Desktop\Flutter\bmi_flutter\android@@:firebase_core::release"
+        name="/Users/parrophinstech/BMI_Calculator/android@@:firebase_core::release"
         simpleName="io.flutter.plugins.firebase.core:firebase_core"/>
+    <dependency
+        name="/Users/parrophinstech/BMI_Calculator/android@@:path_provider_android::release"
+        simpleName="io.flutter.plugins.pathprovider:path_provider_android"/>
+    <dependency
+        name="/Users/parrophinstech/BMI_Calculator/android@@:rive_common::release"
+        simpleName="app.rive.rive:rive_common"/>
     <dependency
         name="com.google.firebase:firebase-auth:22.3.0@aar"
         simpleName="com.google.firebase:firebase-auth"/>
@@ -263,7 +275,7 @@
         name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10@jar"
         simpleName="org.jetbrains.kotlin:kotlin-stdlib-jdk7"/>
     <dependency
-        name="androidx.annotation:annotation-jvm:1.7.0@jar"
+        name="androidx.annotation:annotation-jvm:1.7.1@jar"
         simpleName="androidx.annotation:annotation-jvm"/>
     <dependency
         name="org.jetbrains.kotlin:kotlin-stdlib:1.7.10@jar"
