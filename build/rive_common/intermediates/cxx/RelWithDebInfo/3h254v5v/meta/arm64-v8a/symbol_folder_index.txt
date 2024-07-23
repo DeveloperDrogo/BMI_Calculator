@@ -1,1 +1,0 @@
-/Users/parrophinstech/BMI_Calculator/build/rive_common/intermediates/cxx/RelWithDebInfo/3h254v5v/obj/arm64-v8a
