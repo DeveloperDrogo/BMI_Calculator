@@ -1,3 +1,4 @@
+import 'package:bmi_flutter/nativeSplash.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -28,11 +29,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: isLogin ? 'input' : '/',
+      initialRoute:'/splash',
       routes: {
         '/': (context) => const MyPhone(),
         'otp': (context) => const MyOtp(),
         'input': (context) => InputPage(),
+        '/splash':(context) => SplashScreenPage(login: isLogin)
       },
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(

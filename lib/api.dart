@@ -12,6 +12,7 @@ class Api {
       //debugPrint(response.data.toString());
       if (response.statusCode == 200) {
         CalculatorBrain.api = response.data['weight_categories'];
+        CalculatorBrain.diseaseApi = response.data['disease_categories'];
         return response.data['weight_categories'];
       } else {
         throw Exception('Failed to load data');

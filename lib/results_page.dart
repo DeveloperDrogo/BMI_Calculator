@@ -1,8 +1,6 @@
+import 'package:bmi_flutter/input_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
-
-import 'constants.dart';
-import 'reusable_card.dart';
 import 'package:flutter/material.dart';
 
 class ResultsPage extends StatelessWidget {
@@ -10,6 +8,7 @@ class ResultsPage extends StatelessWidget {
   final String? result;
   final String? interpretation;
   final String description;
+  final String disease;
 
   const ResultsPage({
     this.bmi,
@@ -17,24 +16,37 @@ class ResultsPage extends StatelessWidget {
     this.interpretation,
     Key? key,
     required this.description,
+    required this.disease,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          leading: IconButton(onPressed: (){
-            Navigator.pop(context);
-          }, icon:const Icon(Icons.close,size: 28,)),
+          leading: IconButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => InputPage(),
+                    ));
+              },
+              icon: const Icon(
+                Icons.close,
+                size: 28,
+              )),
           backgroundColor: const Color(0xFF090C22),
           elevation: 0,
-          title:  Text('Result',style: GoogleFonts.lato(fontSize: 22),),
+          title: Text(
+            'Result',
+            style: GoogleFonts.lato(fontSize: 22),
+          ),
           centerTitle: true,
         ),
         bottomNavigationBar: Padding(
-          padding: const EdgeInsets.only(bottom: 20,right: 20,left: 20,top: 5),
-          child: 
-           Padding(
+          padding:
+              const EdgeInsets.only(bottom: 20, right: 20, left: 20, top: 5),
+          child: Padding(
             padding:
                 const EdgeInsets.only(left: 0, right: 0, bottom: 10, top: 20),
             child: SizedBox(
@@ -67,12 +79,15 @@ class ResultsPage extends StatelessWidget {
                   ],
                 ),
                 onPressed: () {
-                 Navigator.pop(context);
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => InputPage(),
+                      ));
                 },
               ),
             ),
           ),
-         
         ),
         body: SingleChildScrollView(
           child: Column(
@@ -119,6 +134,27 @@ class ResultsPage extends StatelessWidget {
               ),
               const SizedBox(
                 height: 10,
+              ),
+              if (disease != '')
+                Padding(
+                  padding: const EdgeInsets.only(left: 20, right: 20),
+                  child: Column(
+                    children: [
+                      const SizedBox(
+                        height: 20,
+                      ),
+                      Text(
+                        disease.toUpperCase(),
+                        style: GoogleFonts.lato(
+                            fontSize: 25,
+                            color: const Color.fromARGB(255, 255, 116, 106),
+                            fontWeight: FontWeight.w600),
+                      ),
+                    ],
+                  ),
+                ),
+              const SizedBox(
+                height: 5,
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 20, right: 20),

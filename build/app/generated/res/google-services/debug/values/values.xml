@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">870514395510</string>
+    <string name="google_api_key" translatable="false">AIzaSyBxCISlFlFsqym575MYeREHMjg8FgdkgDA</string>
+    <string name="google_app_id" translatable="false">1:870514395510:android:a74d27a17b23569726d257</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBxCISlFlFsqym575MYeREHMjg8FgdkgDA</string>
+    <string name="google_storage_bucket" translatable="false">bmi-firebase-9dfeb.appspot.com</string>
+    <string name="project_id" translatable="false">bmi-firebase-9dfeb</string>
+</resources>

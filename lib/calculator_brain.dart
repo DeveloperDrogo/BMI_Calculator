@@ -1,11 +1,14 @@
 class CalculatorBrain {
   final int height;
   final int weight;
+  final String disease;
   late double _bmi;
 
-  CalculatorBrain({required this.height, required this.weight});
+  CalculatorBrain(
+      {required this.height, required this.weight, required this.disease});
 
   static dynamic api;
+  static dynamic diseaseApi;
   String category = '';
 
   String calculateBMI() {
@@ -25,21 +28,42 @@ class CalculatorBrain {
   }
 
   String getDescription() {
-    if (CalculatorBrain.api != null) {
-      for (var cat in CalculatorBrain.api) {
-        if (cat['category'] == category) {
-          return cat['description'];
+    if (disease == '') {
+      if (CalculatorBrain.api != null) {
+        for (var cat in CalculatorBrain.api) {
+          if (cat['category'] == category) {
+            return cat['description'];
+          }
+        }
+      }
+    } else {
+      if (CalculatorBrain.diseaseApi != null) {
+        for (var cat in CalculatorBrain.diseaseApi) {
+          if (cat['category'] == disease) {
+            return cat['description'];
+          }
         }
       }
     }
+
     return 'Description not available';
   }
 
   String getSuggestion() {
-    if (CalculatorBrain.api != null) {
-      for (var cat in CalculatorBrain.api) {
-        if (cat['category'] == category) {
-          return cat['suggestions'].join(', ');
+    if (disease == '') {
+      if (CalculatorBrain.api != null) {
+        for (var cat in CalculatorBrain.api) {
+          if (cat['category'] == category) {
+            return cat['suggestions'].join(', ');
+          }
+        }
+      }
+    } else {
+      if (CalculatorBrain.diseaseApi != null) {
+        for (var cat in CalculatorBrain.diseaseApi) {
+          if (cat['category'] == disease) {
+            return cat['suggestions'].join(', ');
+          }
         }
       }
     }
