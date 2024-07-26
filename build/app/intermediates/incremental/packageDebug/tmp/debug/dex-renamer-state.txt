@@ -1,4 +1,0 @@
-#Thu Jul 25 23:44:39 IST 2024
-base.0=/Users/parrophinstech/BMI_Calculator/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
